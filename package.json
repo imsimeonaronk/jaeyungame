@@ -7,7 +7,7 @@
     "prod": "cross-env env=prod node server/ige.js -g ./src",
     "prod:ssl": "cross-env env=prod ssl=on node server/ige.js -g ./src",
     "build": "node server/ige.js -deploy ./src -to ./src",
-    "dev:lint": "eslint . --fix"    
+    "dev:lint": "eslint . --fix"
   },
   "dependencies": {
     "bad-words": "^3.0.4",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/eslint-parser": "^7.14.3",
-    "cross-env": "^5.2.0",
+    "cross-env": "^5.2.1",
     "eslint": "^7.27.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.23.3",
